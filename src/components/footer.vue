@@ -1,9 +1,9 @@
 <template>
-<footer class="ffooter">
-    <div class="copy">
-        Friends Mind &copy; 2018
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p class="footer">FriendsMind &copy;2018</p>
     </div>
-</footer>
+  </footer>
 </template>
 <script>
 export default {
@@ -11,12 +11,5 @@ export default {
 }
 </script>
 <style lang="scss">
-.ffooter{
-    position: fixed;
-    bottom: 0%; left: 0;
-    width: 100%;
-    background-color: #aaaaaa;
-    display: flex;
-    align-content: center;
-}
+
 </style>
